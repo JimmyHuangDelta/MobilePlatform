@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimary"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/delta_logo_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:background="?attr/colorPrimary"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_logo" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="?attr/colorPrimary"
+        android:src="@drawable/login_bg" />
+
+    <TextView
+        style="@style/NormalTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="25dp"
+        android:lineSpacingExtra="3dp"
+        android:singleLine="false"
+        android:text="@string/copyright_statement"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/delta_logo_iv"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp">
+
+        <TextView
+            style="@style/TitleTextViewStyle"
+            android:id="@+id/connect_title_tv"
+            android:layout_width="match_parent"
+            android:text="@string/login"
+            android:textSize="36sp" />
+
+        <TextView
+            style="@style/NormalTextViewStyle"
+            android:id="@+id/tv_web_server_title"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/connect_title_tv"
+            android:layout_marginTop="8dp"
+            android:text="@string/login_web_server"
+            android:textSize="11sp" />
+        <TextView
+            style="@style/NormalTextViewStyle"
+            android:id="@+id/tv_web_server"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/connect_title_tv"
+            android:layout_toRightOf="@+id/tv_web_server_title"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="5dp"
+            android:text=""
+            android:textSize="11sp" />
+        <TextView
+            style="@style/NormalTextViewStyle"
+            android:id="@+id/tv_mqtt_server_title"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/tv_web_server_title"
+            android:layout_marginTop="8dp"
+            android:text="@string/login_mqtt_server"
+            android:textSize="11sp" />
+
+
+        <TextView
+            style="@style/NormalTextViewStyle"
+            android:id="@+id/tv_mqtt_server"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/tv_web_server_title"
+            android:layout_toRightOf="@+id/tv_mqtt_server_title"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="5dp"
+            android:text=""
+            android:textSize="11sp" />
+        <TextView
+            android:paddingTop="5dp"
+            android:paddingBottom="8dp"
+            android:id="@+id/tv_change"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_mqtt_server_title"
+            android:layout_marginTop="3dp"
+            android:text="@string/change"
+            style="@style/BlueTextViewStyle"
+            android:textSize="11dp" />
+
+        <TextView
+            style="@style/BlueTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/tv_change"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="@string/login_username_title"
+           />
+
+        <EditText
+            style="@style/EditTextStyle"
+            android:id="@+id/et_username"
+            android:layout_below="@+id/tv_change"
+            android:layout_marginTop="35dp"
+            android:drawableLeft="@drawable/ic_username"
+            android:drawablePadding="12dip"
+            android:hint="@string/login_username_hint"
+          />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_below="@+id/et_username"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:text="@string/login_password_title"
+            style="@style/BlueTextViewStyle" />
+
+        <EditText
+            style="@style/EditTextStyle"
+            android:id="@+id/et_password"
+            android:inputType="textPassword"
+            android:layout_below="@+id/et_username"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/ic_password"
+
+            android:drawablePadding="12dip"
+            android:hint="@string/login_password_hint"
+
+          />
+
+
+
+
+        <TextView
+
+            android:id="@+id/tv_login"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_below="@id/et_password"
+            android:layout_marginTop="35dp"
+            style="@style/ConfirmButtonStyle"
+            android:background="@color/confirm_button_selector"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textSize="14sp" />
+
+        <TextView
+            style="@style/NormalTextViewStyle"
+            android:id="@+id/tv_language"
+            android:text="language"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/tv_login"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="25dp"
+            android:drawableLeft="@drawable/ic_language"
+            android:drawableRight="@drawable/ic_arrow_dropdown"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

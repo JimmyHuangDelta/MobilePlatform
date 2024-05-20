@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MobilePlatform</string>
+    <string name="login">Login</string>
+    <string name="login_success">Login success</string>
+    <string name="logout_success">Logout success</string>
+    <string name="login_fail">Login fail</string>
+    <string name="logout_fail">Logout fail</string>
+    <string name="username_password_invalid">The username/password couple is invalid.</string>
+    <string name="select_language">select language</string>
+    <string name="change">change</string>
+    <string name="feature">Feature</string>
+    <string name="settings">Settings</string>
+    <string name="mission">Mission</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="materials_features">materials features</string>
+    <string name="search_features">search features</string>
+    <string name="recent_search">Recent search</string>
+    <string name="search_result">Search result</string>
+    <string name="search_bar">Search</string>
+    <string name="no_result">No Result</string>
+    <string name="connect_server">Please Connect to a Server.</string>
+    <string name="connect_server_ip">Please scan QR Code or enter URL to connect.</string>
+    <string name="server_connection_successful">Server connection successful.</string>
+    <string name="connect">CONNECT</string>
+    <string name="scan_server_qrcode">Scan the server QR Code</string>
+    <string name="skip">SKIP</string>
+    <string name="change_server">Change</string>
+    <string name="not_url">Please enter the Server URL</string>
+    <string name="server_404_error">The server does not exist.</string>
+    <string name="server_408_error">Request timed out.</string>
+    <string name="server_500_error">Server-side exception.</string>
+    <string name="server_503_error">The server is temporarily unable to respond.</string>
+    <string name="server_other_error">An exception occurred, preventing server connection. Please contact the system administrator.</string>
+    <string name="connection_type">Connection type</string>
+    <string name="print_connection_testing">Printer Connection Testing</string>
+    <string name="current_connection_device">Current Connection Device</string>
+    <string name="no_devices_connected">No devices connected</string>
+    <string name="connected">Connected</string>
+    <string name="print">Print</string>
+    <string name="printing">Printing..</string>
+    <string name="connect_to_another_device">Connect to other deviceConnect to other device</string>
+    <string name="preference">Preference</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="accountInfo">Account Info</string>
+    <string name="accountData">Account data</string>
+    <string name="employee_id">Employee ID</string>
+    <string name="account">Account</string>
+    <string name="logout">Logout</string>
+    <string name="offline_title">You’re offline</string>
+    <string name="offline_tip">Only some feature are available in offline mode</string>
+
+
+</resources>

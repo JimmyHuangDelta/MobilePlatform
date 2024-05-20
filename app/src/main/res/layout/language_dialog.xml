@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="?attr/sectionColor"
+    >
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/select_language"
+        android:textSize="11sp"
+        android:paddingLeft="25dp"
+        android:textColor="?attr/primaryBlueColor"
+
+      />
+
+    <TextView
+        style="@style/NormalTextViewStyle"
+        android:id="@+id/tv_current_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="---"
+        android:paddingLeft="25dp"
+
+       />
+
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="15dp"
+        android:background="?attr/primaryBlueColor"/>
+    <TextView
+        android:id="@+id/btn_language_traditional"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="繁體中文"
+        android:paddingLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/transparent"
+        style="@style/NormalTextViewStyle"
+
+        />
+    <TextView
+        android:id="@+id/btn_language_chinese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:paddingLeft="25dp"
+        android:text="简体中文"
+        android:background="@android:color/transparent"
+        style="@style/NormalTextViewStyle"
+
+         />
+
+
+
+    <TextView
+        android:id="@+id/btn_language_english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="25dp"
+        android:text="ENGLISH"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="15dp"
+        android:background="@android:color/transparent"
+        style="@style/NormalTextViewStyle"
+
+         />
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+<!--            &lt;!&ndash; 隐藏ActionBar &ndash;&gt;-->
+<!--            <item name="android:windowTranslucentStatus">true</item>-->
+<!--            &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--&lt;!&ndash;            <item name="android:statusBarColor">@android:color/transparent</item>&ndash;&gt;-->
+<!--        </style>-->
+
+
+
+
+
+    <style name="RadioButtonStyle" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textColor">?attr/textTitleColor</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:buttonTint">?attr/primaryBlueColor</item>
+    </style>
+
+
+
+    <style name="TitleTextViewStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">?attr/textTitleColor</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+
+    <style name="DescripeTextViewStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">?attr/textDescribeColor</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="NormalTextViewStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">?attr/textNormalColor</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="BlueTextViewStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?attr/primaryBlueColor</item>
+    </style>
+
+    <style name="ConfirmButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">?attr/buttonConfirmColor</item>
+        <item name="android:textColor">#FAFAFA</item>
+    </style>
+
+<!--    <style name="TabBarStyle" parent="Widget.Design.TabLayout">-->
+<!--        <item name="android:layout_width">match_parent</item>-->
+<!--        <item name="android:layout_height">wrap_content</item>-->
+<!--        <item name="android:background">?attr/colorPrimary</item>-->
+<!--        <item name="android:minHeight">?attr/actionBarSize</item>-->
+<!--        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>-->
+<!--        <item name="tabIndicatorColor">?attr/primaryBlueColor</item>-->
+<!--        <item name="tabTextColor">?attr/titleTextColor</item>-->
+<!--    </style>-->
+
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:backgroundTint">?attr/primaryBlueColor</item>
+        <item name="android:textColor">?attr/editTextColor</item>
+        <item name="android:textColorHint">?attr/EditTextHintColor</item>
+    </style>
+
+
+</resources>

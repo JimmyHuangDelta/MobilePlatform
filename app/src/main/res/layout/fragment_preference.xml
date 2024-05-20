@@ -1,0 +1,138 @@
+<!-- userinfo_fragment.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimary"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_marginTop="10dp"
+        style="@style/NormalTextViewStyle"
+        android:id="@+id/tv_printer_connection_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="@string/print_connection_testing"
+        android:textSize="11sp" />
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/rv_connect_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_printer_connection_title"
+        android:background="?attr/sectionColor"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+
+
+        <TextView
+            style="@style/NormalTextViewStyle"
+            android:id="@+id/tv_connnect_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/connection_type"
+            android:textSize="13sp" />
+
+
+       <RadioGroup
+           android:id="@+id/connect_rg"
+           android:layout_width="wrap_content"
+           android:layout_marginTop="25dp"
+           android:layout_marginBottom="10dp"
+           android:layout_below="@+id/tv_connnect_title"
+           android:layout_height="wrap_content">
+           <RadioButton
+               style="@style/RadioButtonStyle"
+               android:textColor="?attr/textTitleColor"
+               android:id="@+id/radioButton1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/bluetooth" />
+
+           <RadioButton
+               style="@style/RadioButtonStyle"
+               android:textColor="?attr/textTitleColor"
+               android:id="@+id/radioButton2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/WIFI" />
+
+
+
+
+       </RadioGroup>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rv_user_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rv_connect_type"
+        android:layout_marginTop="1dp"
+        android:background="?attr/sectionColor"
+        android:paddingLeft="24dp"
+        android:paddingTop="15dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="15dp">
+
+        <TextView
+            style="@style/NormalTextViewStyle"
+            android:id="@+id/tv_connect_device_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/current_connection_device"
+
+            android:textSize="13sp" />
+
+        <TextView
+            style="@style/NormalTextViewStyle"
+            android:id="@+id/tv_connecting_device"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/tv_connect_device_title"
+            android:text="@string/no_devices_connected"
+
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rv_user_code"
+        android:layout_marginTop="1dp"
+        android:background="?attr/sectionColor"
+        android:paddingLeft="24dp"
+        android:paddingTop="15dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="15dp">
+
+
+
+        <TextView
+            style="@style/BlueTextViewStyle"
+            android:id="@+id/tv_connect_other_device"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@drawable/ic_bluetooth"
+            android:text="@string/connect_to_another_device"
+            android:drawablePadding="5dp"
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,169 @@
+<!-- userinfo_fragment.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorPrimary"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_marginTop="10dp"
+        style="@style/NormalTextViewStyle"
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/accountData"
+        android:layout_marginLeft="15dp"
+        android:textSize="11sp" />
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/rv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewName"
+        android:background="?attr/sectionColor"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            style="@style/TitleTextViewStyle"
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:text=""
+            android:textSize="22sp" />
+
+        <TextView
+            style="@style/NormalTextViewStyle"
+            android:id="@+id/tv_factory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_username"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="27dp"
+            android:text="-"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/imageViewProfile"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="27dp"
+            android:background="@drawable/img_avatur_circle_style"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_userinfo" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rv_user_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rv_name"
+        android:layout_marginTop="1dp"
+        android:background="?attr/sectionColor"
+        android:paddingLeft="24dp"
+        android:paddingTop="15dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="15dp">
+
+        <TextView
+            android:id="@+id/user_code_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/employee_id"
+            style="@style/NormalTextViewStyle"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_usercode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="-"
+            style="@style/TitleTextViewStyle"
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rv_user_code"
+        android:layout_marginTop="1dp"
+        android:background="?attr/sectionColor"
+        android:paddingLeft="24dp"
+        android:paddingTop="15dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="15dp">
+
+        <TextView
+            android:id="@+id/tv_email_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/EMAIL"
+
+            style="@style/NormalTextViewStyle"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text=""
+            style="@style/TitleTextViewStyle"
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_mark"
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/logout_button_orange"
+       android:background="@drawable/button_logout_style"
+        android:layout_marginBottom="15dp"
+        android:text="@string/logout">
+
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <TextView
+        style="@style/TitleTextViewStyle"
+        android:id="@+id/tv_mark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="© 2023 Delta Electronics, Inc. All Rights Reserved."
+         />
+    <!--    <TextView-->
+    <!--        android:id="@+id/textViewEmail"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Email: john.doe@example.com"-->
+    <!--        android:textSize="18sp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:layout_marginTop="16dp"/>-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textViewAge"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Age: 30"-->
+    <!--        android:textSize="18sp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:layout_marginTop="16dp"/>-->
+
+</RelativeLayout>

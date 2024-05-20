@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MobilePlatform</string>
+    <string name="login">登入</string>
+    <string name="login_success">登入成功</string>
+    <string name="logout_success">登出成功</string>
+    <string name="logout_fail">登出失敗</string>
+    <string name="login_fail">登入失敗</string>
+    <string name="username_password_invalid">帳號或密碼錯誤。</string>
+    <string name="select_language">選擇語言</string>
+    <string name="change">變更</string>
+    <string name="feature">作業</string>
+    <string name="settings">設定</string>
+    <string name="mission">任務</string>
+    <string name="dashboard">儀表板</string>
+    <string name="materials_features">物料作業</string>
+    <string name="search_features">查詢作業</string>
+    <string name="search_result">查詢結果</string>
+    <string name="recent_search">最近搜尋</string>
+    <string name="search_bar">搜尋</string>
+    <string name="no_result">無符合結果</string>
+    <string name="connect_server">連接伺服器</string>
+    <string name="connect_server_ip">請掃描或輸入欲連結的伺服器</string>
+    <string name="server_connection_successful">伺服器連接成功。</string>
+    <string name="connect">連接</string>
+    <string name="scan_server_qrcode">掃描伺服器QR Code</string>
+    <string name="skip">略過</string>
+    <string name="change_server">變更</string>
+    <string name="not_url">請輸入Server URL</string>
+    <string name="server_404_error">伺服器不存在</string>
+    <string name="server_408_error">請求超時</string>
+    <string name="server_500_error">伺服器端異常</string>
+    <string name="server_503_error">伺服器暫時無法回應</string>
+    <string name="server_other_error">發生異常，無法連接伺服器，請洽系統管理員。</string>
+    <string name="print_connection_testing">印表機連線設定</string>
+    <string name="connection_type">連線方式</string>
+    <string name="current_connection_device">目前連線裝置</string>
+    <string name="no_devices_connected">未連線任何裝置</string>
+    <string name="connected">已連線</string>
+    <string name="print">列印</string>
+    <string name="printing">列印中…</string>
+    <string name="connect_to_another_device">連線到其他裝置</string>
+    <string name="preference">偏好設定</string>
+    <string name="bluetooth">藍芽</string>
+    <string name="accountInfo">帳戶資訊</string>
+    <string name="accountData">基本資料</string>
+    <string name="employee_id">員工代碼</string>
+    <string name="account">帳戶</string>
+    <string name="logout">登出</string>
+    <string name="offline_title">您處於離線狀態</string>
+    <string name="offline_tip">離線狀態時僅有部分作業可使用</string>
+
+</resources>

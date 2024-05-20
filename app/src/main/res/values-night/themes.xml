@@ -1,16 +1,27 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.MobilePlatform" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents">
+
+        <item name="colorPrimaryDark">@color/night_primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorPrimary">@color/night_primary</item>
+        <item name="textTitleColor">@color/night_text_title_color</item>
+        <item name="textDescribeColor">@color/night_text_title_color</item>
+        <item name="textNormalColor">@color/night_text_normal_color</item>
+
+        <item name="primaryBlueColor">@color/night_text_primary_blue_color</item>
+
+        <item name="EditTextColor">@color/night_edittext_color</item>
+        <item name="EditTextHintColor">@color/night_edittext_hint_color</item>
+
+        <item name="buttonConfirmColor">@color/night_button_confirm_color</item>
+
+        <item name="sectionColor">@color/night_section_color</item>
+        <item name="searchBarColor">@color/night_searchbar_color</item>
+
+        <item name="navigationBarColor">@color/night_navigation_bar</item>
+        <item name="navigationBarTextColor">@color/night_navigation_bar_text</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 </resources>

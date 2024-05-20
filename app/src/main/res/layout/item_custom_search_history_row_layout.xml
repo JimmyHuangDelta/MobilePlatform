@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorPrimary"
+    android:orientation="horizontal"
+    android:padding="30dp">
+
+    <!-- 图片 -->
+    <ImageView
+        android:id="@+id/imageView_icon"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:background="@drawable/ic_search_color"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        />
+
+    <!-- 标题 -->
+    <TextView
+        style="@style/NormalTextViewStyle"
+        android:id="@+id/item_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:text="Feature Title"
+        android:textSize="13sp"
+        android:layout_gravity="center"/>
+
+    <!-- 描述 -->
+
+</LinearLayout>
